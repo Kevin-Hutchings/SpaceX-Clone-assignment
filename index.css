@@ -1,0 +1,67 @@
+body{
+  margin-top: 0;
+  margin-left: 50px;
+  border: 1px solid purple;
+  height: 200vh;
+}
+
+.top-menu{
+  border: 1px solid green;
+  box-sizing: border-box; 
+  height: 100px;
+  display: flex;
+  align-items: center;
+  position: sticky;
+  top: 0;
+}
+
+#logo{
+  height: 45px;
+  position: relative;
+  left: 8%;
+}
+
+.menu-items{
+  box-sizing: border-box;
+  /* border: 1px solid blue; */
+  list-style: none;
+  padding-left: 0;
+  font-size: 12px;
+  width: 40vw;
+  display: flex;
+  position: relative;
+  left: 4%;
+  justify-content: space-evenly;
+  overflow: hidden;
+}
+
+.side-menu{
+  width: 8vw;
+  word-spacing: 50px;
+  border: 1px solid black;
+  margin-left: 40px;
+  padding: 10px;
+  display: flex;
+  position: absolute;
+  left: 87%;
+}
+
+.hamburger{
+  border: 1px solid black;
+  width: 10px;
+  height: 1px;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottom-text{
+  border: 1px solid black;
+  /* box-sizing: border-box; */
+  width: 25vw;
+  height: 25vh;
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  left: 13%;
+  bottom: 5%;
+}
