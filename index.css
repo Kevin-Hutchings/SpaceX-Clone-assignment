@@ -5,7 +5,8 @@ body{
 }
 
 .dragon{
-  height: 100vh;
+  height: 110vh;
+  margin-top: -100px;
   background-image: url("https://www.spacex.com/static/images/crew-2/splashdown/Crew-1_Crew_Desktop.webp");
   background-repeat: no-repeat;
   background-size: cover;
@@ -19,9 +20,9 @@ body{
 }
 
 .top-menu{
-  border: 1px solid green;
+  /* border: 1px solid green; */
   box-sizing: border-box; 
-  height: 100px;
+  height:75px;
   display: flex;
   align-items: center;
   position: sticky;
@@ -31,7 +32,7 @@ body{
 #logo{
   height: 25px;
   position: relative;
-  left: 8%;
+  left: 12%;
 }
 
 .menu-items{
@@ -42,29 +43,31 @@ body{
   width: 40vw;
   display: flex;
   position: relative;
-  left: 6%;
+  left: 12%;
   justify-content: space-evenly;
   overflow: hidden;
 }
 
 .side-menu{
+  border: none;
+  background-color: transparent;
+  color: white;
   width: 3vw;
   font-size: 12px;
-  border: 1px solid black;
   margin-left: 40px;
   padding: 10px;
   display: flex;
   position: absolute;
   left: 87%;
 }
+.side-menu:hover{
+  text-decoration: underline white;
+}
 
 .hamburger{
-  width: 35px;
-  height: 5px;
-  background-color: white;
-  margin: 6px 0;
+  width: 30px;
+  height: 20px;
   display: flex;
-  flex-direction: column;
   position: absolute;
   left: 94%;
 }
@@ -93,7 +96,7 @@ body{
   bottom: -100%;
 }
 
-.button {
+.rewatch{
 	background-color: transparent;
 	border:1px solid white;
 	display:inline-block;
@@ -102,4 +105,8 @@ body{
 	font-size:15px;
 	padding:15px 30px;
   align-self: start;
+}
+.rewatch:active{
+  background-color: white;
+  color: black;
 }
